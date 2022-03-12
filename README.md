@@ -1,6 +1,6 @@
 # Rust Learning Documentation
 
-This Rest learning repository is part of the Life Long Learning Documentation, where the contents would be the same (maybe different content structures), but as in a public repo instead of a private one. 
+This Rust learning repository is part of the Life Long Learning Documentation, where the contents would be the same (maybe different content structures), but as in a public repo instead of a private one. 
 
 ## Rust Errors
 
