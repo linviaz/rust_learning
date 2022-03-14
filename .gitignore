@@ -1,4 +1,5 @@
 # generated file for library crates
 
 target/
+**/**/target/
 Cargo.lock
