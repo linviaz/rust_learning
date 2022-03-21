@@ -11,20 +11,19 @@ if __name__=='__main__':
     iteration = 1000000
 
     count = 0
-    x, y = list(), list()
 
     for i in range(1, iteration+1):
-        x = generate(-0.5, 0.5)
-        y = generate(-0.5, 0.5)
+        x = generate(0, 1)
+        y = generate(0, 1)
 
         # construct circle within square
         r_sq = x**2 + y**2
 
-        # within circle radius*radius = 0.25
-        if r_sq <= 0.25: 
+        # within circle radius*radius
+        if r_sq <= 1: 
             count += 1
 
-        c_area = count/i
+        c_area = count/i*4.0
         pi = c_area/r_sq
 
     print("{:.3f}".format(pi))
