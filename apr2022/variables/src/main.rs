@@ -22,4 +22,7 @@ fn main() {
     // let mut spaces = "      ";
     // spaces = spaces.len();
     // // The above code won't run with a compiler-time error of mutating a variable's type.
+
+    let guess: u32  = "42".parse().expect("Not a number!");
+    println!("The guessed number is: {}", guess);
 }
